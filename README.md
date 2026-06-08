@@ -2,9 +2,10 @@
 
 ## Project Overview
 
-This project demonstrates the complete workflow of fine-tuning a Large Language Model (LLM) using Parameter-Efficient Fine-Tuning (PEFT) with LoRA (Low-Rank Adaptation).
+This project fine-tunes TinyLlama using LoRA for AI Engineering Q&A tasks.  
+The model is deployed using Hugging Face Spaces with a Gradio interface.
 
-The goal of this project was to customize TinyLlama to respond to AI Engineering-related instructions using a custom-built dataset containing AI concepts, system design topics, model architecture concepts, retrieval systems, prompt engineering techniques, vector databases, and other AI Engineering subjects.
+The goal of this project was to customize TinyLlama to respond to AI Engineering-related instructions using a custom-built dataset 
 
 The project covers:
 
@@ -21,18 +22,6 @@ The project covers:
 # Problem Statement
 
 Pre-trained language models possess general knowledge but may not respond in a desired format or specialize in a specific domain.
-
-In AI Engineering, there are many important concepts such as:
-
-- Retrieval-Augmented Generation (RAG)
-- Vector Databases
-- Prompt Engineering
-- AI Agents
-- Transformers
-- Self-Attention
-- Fine-Tuning
-- Model Deployment
-- Document Question Answering
 
 The objective was to adapt TinyLlama so that it could generate responses in a structured AI Engineering context.
 
@@ -368,6 +357,9 @@ TinyLlama + LoRA Adapter
         ↓
 Receive Response
 ```
+
+
+Deployment link:https://huggingface.co/spaces/Rofeeah12/tinyllama-lora-ai-engineering
 
 ---
 
